@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\A_C\u002B\u002B\\C\u002B\u002B_01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA35C959-BB3A-4705-9347-747C5CC7570F}|C\u002B\u002B_01\\C\u002B\u002B_01.vcxproj|D:\\A_C\u002B\u002B\\C\u002B\u002B_01\\C\u002B\u002B_01\\HelloWorld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA35C959-BB3A-4705-9347-747C5CC7570F}|C\u002B\u002B_01\\C\u002B\u002B_01.vcxproj|solutionrelative:C\u002B\u002B_01\\HelloWorld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelloWorld.cpp",
+              "DocumentMoniker": "D:\\A_C\u002B\u002B\\C\u002B\u002B_01\\C\u002B\u002B_01\\HelloWorld.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B_01\\HelloWorld.cpp",
+              "ToolTip": "D:\\A_C\u002B\u002B\\C\u002B\u002B_01\\C\u002B\u002B_01\\HelloWorld.cpp",
+              "RelativeToolTip": "C\u002B\u002B_01\\HelloWorld.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-17T10:58:14.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
