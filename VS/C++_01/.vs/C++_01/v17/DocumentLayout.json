@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B_01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AA35C959-BB3A-4705-9347-747C5CC7570F}|C\u002B\u002B_01\\C\u002B\u002B_01.vcxproj|D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B_01\\C\u002B\u002B_01\\three_pigs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA35C959-BB3A-4705-9347-747C5CC7570F}|C\u002B\u002B_01\\C\u002B\u002B_01.vcxproj|solutionrelative:C\u002B\u002B_01\\three_pigs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA35C959-BB3A-4705-9347-747C5CC7570F}|C\u002B\u002B_01\\C\u002B\u002B_01.vcxproj|D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B_01\\C\u002B\u002B_01\\HelloWorld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA35C959-BB3A-4705-9347-747C5CC7570F}|C\u002B\u002B_01\\C\u002B\u002B_01.vcxproj|solutionrelative:C\u002B\u002B_01\\HelloWorld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HelloWorld.cpp",
               "DocumentMoniker": "D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B_01\\C\u002B\u002B_01\\HelloWorld.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B_01\\HelloWorld.cpp",
               "ToolTip": "D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B_01\\C\u002B\u002B_01\\HelloWorld.cpp",
               "RelativeToolTip": "C\u002B\u002B_01\\HelloWorld.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-17T10:58:14.271Z",
+              "WhenOpened": "2024-09-18T11:52:15.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "three_pigs.cpp",
+              "DocumentMoniker": "D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B_01\\C\u002B\u002B_01\\three_pigs.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B_01\\three_pigs.cpp",
+              "ToolTip": "D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B_01\\C\u002B\u002B_01\\three_pigs.cpp",
+              "RelativeToolTip": "C\u002B\u002B_01\\three_pigs.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-18T11:48:25.999Z",
               "EditorCaption": ""
             }
           ]
