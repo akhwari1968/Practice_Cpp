@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	int one = 0;
+	/*int one = 0;
 	int two = 0;
 	int three = 0;
 
@@ -20,7 +20,15 @@ int main()
 	else if (one < two && two > three)
 	cout << "最重的是：two" << endl;
 	else if (one < three && two < three)
-	cout << "最重的是：three" << endl;
+	cout << "最重的是：three" << endl;*/
+
+	int a = 0;
+	int b = 0;
+
+	while (cin >> a >> b)
+	{
+		cout << (a + b) << endl;
+	}
 
 	system("pause");
 	return 0;
