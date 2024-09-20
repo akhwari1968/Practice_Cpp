@@ -1,2 +1,3 @@
 ﻿  three_pigs.cpp
+D:\A_C++\C++Daily Practice\VS\C++_01\C++_01\three_pigs.cpp(38,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
   C++_01.vcxproj -> D:\A_C++\C++Daily Practice\VS\C++_01\x64\Debug\C++_01.exe

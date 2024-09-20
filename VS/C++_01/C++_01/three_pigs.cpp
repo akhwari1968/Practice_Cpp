@@ -22,13 +22,21 @@ int main()
 	else if (one < three && two < three)
 	cout << "最重的是：three" << endl;*/
 
-	int a = 0;
+	/*int a = 0;
 	int b = 0;
 
 	while (cin >> a >> b)
 	{
 		cout << (a + b) << endl;
-	}
+	}*/
+
+	float c = 0;
+	float c1 = 0;
+
+	cin >> c;
+
+	c1 = 5.0 * (c - 32.0) / 9.0;
+	printf("c=%.2f\n", c1);
 
 	system("pause");
 	return 0;
