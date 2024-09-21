@@ -30,13 +30,59 @@ int main()
 		cout << (a + b) << endl;
 	}*/
 
-	float c = 0;
+	/*float c = 0;
 	float c1 = 0;
 
 	cin >> c;
 
 	c1 = 5.0 * (c - 32.0) / 9.0;
-	printf("c=%.2f\n", c1);
+	printf("c=%.2f\n", c1);*/
+	/*srand((unsigned int)time(NULL));
+
+	int num = rand() % 100 + 1;
+	cout << num << endl;*/
+	
+	/*int num = 0;
+	int i = 100;
+	do
+	{
+		num = (i / 100) * (i / 100) * (i / 100);
+		num += (i / 10 % 10) * (i / 10 % 10) * (i / 10 % 10);
+		num += (i % 10) * (i % 10) * (i % 10);
+
+		if (num == i)
+		{
+			cout << num << endl;
+		}
+		i++;
+
+	} while (i < 1000);*/
+
+	////i/*nt i = 0;
+	//int j = 0;
+	//int col = 0;
+	//int row = 0;
+	//cin >> col;
+	//cin >> row;
+	//for (i = 0; i < col; i++)
+	//{
+	//	for (j = 0; j < row; j++)
+	//	{
+	//		cout << "* ";
+	//	}
+	//	cout << endl;
+	//}*/
+
+	int i = 1;
+	int j = 1;
+	for (i = 1; i <= 9; i++)
+	{
+		for (j = 1; j <= i; j++)
+		{
+			cout << j << "*" << i << "=" << (j * i) << "\t";
+		}
+		cout << endl;
+	}
 
 	system("pause");
 	return 0;
