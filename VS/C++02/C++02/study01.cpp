@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	int c = 0;
+	/*int c = 0;
 	cin >> c;
 
 	if (c >= 90)
@@ -26,7 +26,23 @@ int main()
 	else
 	{
 		cout << "E" << endl;
+	}*/
+
+	int n = 0;
+	int sn = 0;
+	int tmp = 0;
+
+	cin >> n;
+
+	int i = 0;
+	for (i = 0; i < n; i++)
+	{
+		tmp = tmp * 10 + 2;
+		sn += tmp;
 	}
+
+	cout << sn << endl;
+
 	system("pause");
 	return 0;
 }
