@@ -28,7 +28,7 @@ int main()
 		cout << "E" << endl;
 	}*/
 
-	int n = 0;
+	/*int n = 0;
 	int sn = 0;
 	int tmp = 0;
 
@@ -41,7 +41,34 @@ int main()
 		sn += tmp;
 	}
 
-	cout << sn << endl;
+	cout << sn << endl;*/
+
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	double sum = 0;
+	int i = 0;
+
+	cin >> a;
+	cin >> b;
+	cin >> c;
+
+	for (i = 1; i <= a; i++)
+	{
+		sum += i;
+	}
+	
+	for (i = 1; i <= b; i++)
+	{
+		sum += i * i;
+	}
+
+	for (i = 1; i <= c; i++)
+	{
+		sum += 1.0 / i;
+	}
+
+	printf("%.2lf\n", sum);
 
 	system("pause");
 	return 0;
