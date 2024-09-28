@@ -43,7 +43,7 @@ int main()
 
 	cout << sn << endl;*/
 
-	int a = 0;
+	/*int a = 0;
 	int b = 0;
 	int c = 0;
 	double sum = 0;
@@ -68,7 +68,20 @@ int main()
 		sum += 1.0 / i;
 	}
 
-	printf("%.2lf\n", sum);
+	printf("%.2lf\n", sum);*/
+
+	int N = 0;
+	cin >> N;
+	int i = 0;
+	int sum = 1;
+
+	for (i = 1; i < N; i++)
+	{
+		
+		sum = (sum + 1) * 2;
+	}
+
+	cout << sum << endl;
 
 	system("pause");
 	return 0;
