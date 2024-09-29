@@ -73,15 +73,22 @@ int main()
 	int N = 0;
 	cin >> N;
 	int i = 0;
-	int sum = 1;
-
-	for (i = 1; i < N; i++)
+	for (i = 2; i <= N; i++)
 	{
-		
-		sum = (sum + 1) * 2;
+		int tru = 1;
+		for (int j = 2; j < i; j++)
+		{
+			if (i % j == 0)
+			{
+				tru = 0;
+				break;
+			}
+		}
+		if (tru != 0)
+		{
+			cout << i << endl;
+		}
 	}
-
-	cout << sum << endl;
 
 	system("pause");
 	return 0;
