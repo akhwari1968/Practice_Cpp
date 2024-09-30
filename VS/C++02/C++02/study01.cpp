@@ -70,7 +70,7 @@ int main()
 
 	printf("%.2lf\n", sum);*/
 
-	int N = 0;
+	/*int N = 0;
 	cin >> N;
 	int i = 0;
 	for (i = 2; i <= N; i++)
@@ -88,6 +88,24 @@ int main()
 		{
 			cout << i << endl;
 		}
+	}*/
+
+	int num = 0;
+	cin >> num;
+
+	int i = 0;
+	for (i = 2; i < num; i++)
+	{
+		if (num % i == 0)
+		{
+			cout << "not prime" << endl;
+			break;
+		}
+	}
+
+	if (i == num-1)
+	{
+		cout << "prime" << endl;
 	}
 
 	system("pause");
