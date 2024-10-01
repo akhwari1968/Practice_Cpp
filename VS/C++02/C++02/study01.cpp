@@ -1,6 +1,14 @@
 #define  _CRT_SECURE_NO_WARNINGS 1
 #include <iostream>
+#include <string>
 using namespace std;
+
+struct student
+{
+	string name;
+	int age;
+	int score;
+};
 
 int main()
 {
@@ -90,7 +98,7 @@ int main()
 		}
 	}*/
 
-	int num = 0;
+	/*int num = 0;
 	cin >> num;
 
 	int i = 0;
@@ -106,7 +114,15 @@ int main()
 	if (i == num-1)
 	{
 		cout << "prime" << endl;
-	}
+	}*/
+
+student arr[2] =
+{
+	{"zhangsan",12,60},
+	{"wu",23}
+};
+
+cout << arr[0].name << " " << arr[0].age << " " << arr[1].score << endl;
 
 	system("pause");
 	return 0;
