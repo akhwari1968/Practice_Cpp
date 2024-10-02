@@ -116,13 +116,19 @@ int main()
 		cout << "prime" << endl;
 	}*/
 
-student arr[2] =
-{
-	{"zhangsan",12,60},
-	{"wu",23}
-};
+	int arr[10];
+	int i = 0;
+	for (i = 0; i < 10; i++)
+	{
+		cin >> arr[i];
+	}
 
-cout << arr[0].name << " " << arr[0].age << " " << arr[1].score << endl;
+	for (i = 9; i >= 0; i--)
+	{
+		cout << arr[i] << " ";
+	}
+
+	cout << endl;
 
 	system("pause");
 	return 0;
