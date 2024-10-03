@@ -3,12 +3,12 @@
 #include <string>
 using namespace std;
 
-struct student
-{
-	string name;
-	int age;
-	int score;
-};
+//struct student
+//{
+//	string name;
+//	int age;
+//	int score;
+//};
 
 int main()
 {
@@ -116,16 +116,14 @@ int main()
 		cout << "prime" << endl;
 	}*/
 
-	int arr[10];
-	int i = 0;
-	for (i = 0; i < 10; i++)
-	{
-		cin >> arr[i];
-	}
+	string str;
+	getline(cin, str);
 
-	for (i = 9; i >= 0; i--)
+	int len = str.length();
+
+	for (int i = len - 1; i >= 0; i--)
 	{
-		cout << arr[i] << " ";
+		cout << str[i];
 	}
 
 	cout << endl;
