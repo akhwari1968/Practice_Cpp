@@ -116,7 +116,7 @@ int main()
 		cout << "prime" << endl;
 	}*/
 
-	string str;
+	/*string str;
 	getline(cin, str);
 
 	int len = str.length();
@@ -126,6 +126,27 @@ int main()
 		cout << str[i];
 	}
 
+	cout << endl;*/
+
+//string str1;
+//string str2;
+//
+//cin >> str1;
+//cin >> str2;
+//
+//cout << str1 << str2 << endl;
+
+	string str;
+	cin >> str;
+	int len = str.length();
+	int i = 0;
+	for (i = 0; i < len; i++)
+	{
+		if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
+		{
+			printf("%c", str[i]);
+		}
+	}
 	cout << endl;
 
 	system("pause");
