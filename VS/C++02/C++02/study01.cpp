@@ -136,7 +136,7 @@ int main()
 //
 //cout << str1 << str2 << endl;
 
-	string str;
+	/*string str;
 	cin >> str;
 	int len = str.length();
 	int i = 0;
@@ -147,7 +147,17 @@ int main()
 			printf("%c", str[i]);
 		}
 	}
-	cout << endl;
+	cout << endl;*/
+
+int num = 0;
+cin >> num;
+
+cout << (num / 1000) << " " 
+	 << (num / 100 % 10) << " " 
+	 << (num / 10 % 10) << " " 
+	 << (num % 10) << endl;
+
+cout << endl;
 
 	system("pause");
 	return 0;
