@@ -1,6 +1,7 @@
 #define  _CRT_SECURE_NO_WARNINGS 1
 #include <iostream>
 #include <string>
+#include <ctype.h>
 using namespace std;
 
 //struct student
@@ -149,15 +150,41 @@ int main()
 	}
 	cout << endl;*/
 
-int num = 0;
-cin >> num;
+//int num = 0;
+//cin >> num;
+//
+//cout << (num / 1000) << " " 
+//	 << (num / 100 % 10) << " " 
+//	 << (num / 10 % 10) << " " 
+//	 << (num % 10) << endl;
+//
+//cout << endl;
 
-cout << (num / 1000) << " " 
-	 << (num / 100 % 10) << " " 
-	 << (num / 10 % 10) << " " 
-	 << (num % 10) << endl;
+string str;
+getline(cin, str);
+int i = 0;
+int a = 0, b = 0, c = 0, d = 0;
+for (i = 0; i < (str.length()); i++)
+{
+	if (isalpha(str[i]))
+	{
+		a += 1;
+	}
+	else if (isdigit(str[i]))
+	{
+		b += 1;
+	}
+	else if (str[i] == ' ')
+	{
+		c += 1;
+	}
+	else
+	{
+		d += 1;
+	}
+}
 
-cout << endl;
+cout << a << ' ' << b << ' ' << c << ' ' << d << endl;
 
 	system("pause");
 	return 0;
