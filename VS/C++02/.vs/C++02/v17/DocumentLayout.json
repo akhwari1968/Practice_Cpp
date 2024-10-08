@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9B1FC76B-B456-444A-9892-07F05DDFCF94}|C\u002B\u002B02\\C\u002B\u002B02.vcxproj|D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B02\\C\u002B\u002B02\\study02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9B1FC76B-B456-444A-9892-07F05DDFCF94}|C\u002B\u002B02\\C\u002B\u002B02.vcxproj|solutionrelative:C\u002B\u002B02\\study02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B1FC76B-B456-444A-9892-07F05DDFCF94}|C\u002B\u002B02\\C\u002B\u002B02.vcxproj|D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B02\\C\u002B\u002B02\\study01.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B1FC76B-B456-444A-9892-07F05DDFCF94}|C\u002B\u002B02\\C\u002B\u002B02.vcxproj|solutionrelative:C\u002B\u002B02\\study01.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "study02.cpp",
+              "DocumentMoniker": "D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B02\\C\u002B\u002B02\\study02.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B02\\study02.cpp",
+              "ToolTip": "D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B02\\C\u002B\u002B02\\study02.cpp",
+              "RelativeToolTip": "C\u002B\u002B02\\study02.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-08T02:11:26.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "study01.cpp",
               "DocumentMoniker": "D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B02\\C\u002B\u002B02\\study01.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B02\\study01.cpp",
               "ToolTip": "D:\\A_C\u002B\u002B\\C\u002B\u002BDaily Practice\\VS\\C\u002B\u002B02\\C\u002B\u002B02\\study01.cpp",
               "RelativeToolTip": "C\u002B\u002B02\\study01.cpp",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAAwLAAAAAYAAAA",
+              "ViewState": "AQIAAK0AAAAAAAAAAADwv74AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-22T12:43:27.202Z",
               "EditorCaption": ""
