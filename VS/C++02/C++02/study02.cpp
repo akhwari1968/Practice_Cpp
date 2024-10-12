@@ -13,7 +13,7 @@ int main()
 	Swap(val1, val2);
 	cout << val1 << " " << val2 << endl;*/
 
-	string str;
+	/*string str;
 	getline(cin, str);
 	int i = 0;
 	for (i = 0; i < str.length(); i++)
@@ -31,7 +31,17 @@ int main()
 		}
 	}
 
-	cout << str << endl;
+	cout << str << endl;*/
+
+	string str;
+	getline(cin, str);
+	int len = str.length();
+	int i = 0;
+	for (i = len - 1; i >= 0; i--)
+	{
+		printf("%c", str[i]);
+	}
+	cout << endl;
 
 	system("pause");
 	return 0;
