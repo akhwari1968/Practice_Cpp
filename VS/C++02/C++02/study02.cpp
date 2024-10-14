@@ -58,7 +58,7 @@ int main()
 	}
 	cout << endl;*/
 
-	int m = 0, n = 0,sum = 0;
+	/*int m = 0, n = 0,sum = 0;
 	cin >> m >> n;
 	for (m = m; m <= n; m++)
 	{
@@ -68,7 +68,27 @@ int main()
 		}
 	}
 
-	cout << sum << endl;
+	cout << sum << endl;*/
+
+	int arr[10];
+	int i = 0;
+	int sum = 0, count = 0;
+	for (i = 0; i < 10; i++)
+	{
+		cin >> arr[i];
+		sum += arr[i];
+	}
+
+	sum /= 10;
+	for (i = 0; i < 10; i++)
+	{
+		if (arr[i] > sum)
+		{
+			count++;
+		}
+	}
+
+	cout << count << endl;
 
 	system("pause");
 	return 0;
