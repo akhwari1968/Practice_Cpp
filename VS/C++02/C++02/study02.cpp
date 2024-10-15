@@ -70,7 +70,7 @@ int main()
 
 	cout << sum << endl;*/
 
-	int arr[10];
+	/*int arr[10];
 	int i = 0;
 	int sum = 0, count = 0;
 	for (i = 0; i < 10; i++)
@@ -88,7 +88,10 @@ int main()
 		}
 	}
 
-	cout << count << endl;
+	cout << count << endl;*/
+
+	int c = 63;
+	cout << int('t') << ' ' << char(65) << endl;
 
 	system("pause");
 	return 0;
