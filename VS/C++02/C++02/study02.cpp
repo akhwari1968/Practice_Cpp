@@ -1,6 +1,8 @@
 #define  _CRT_SECURE_NO_WARNINGS 1
 #include <iostream>
+#include <iomanip>//输入输出格式库
 #include <string>
+#define pi 3.1415926
 //#define Swap(num1,num2) (temp = num1,num1 = num2,num2 = temp)
 using namespace std;
 
@@ -90,8 +92,9 @@ int main()
 
 	cout << count << endl;*/
 
-	int c = 63;
-	cout << int('t') << ' ' << char(65) << endl;
+	double r = 0.0;
+	cin >> r;
+	cout << fixed << setprecision(2) << pi * r * r << endl;//fixed设置为定点输出模式，setprecision设置小数点后几位
 
 	system("pause");
 	return 0;
