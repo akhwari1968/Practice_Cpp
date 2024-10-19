@@ -6,7 +6,7 @@ int main()
 {
 	//cout << 3 << endl;
 	
-	string str;
+	/*string str;
 	cin >> str;
 	int i = 0;
 	
@@ -34,7 +34,11 @@ int main()
     }
   }
 
-  cout << str << endl;
+  cout << str << endl;*/
+  
+	int a = 0;
+    a = 5000 / 3;
+    cout << a << endl;
 	
 	return 0;
 }
