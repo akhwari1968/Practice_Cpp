@@ -10,6 +10,11 @@ int main()
     int j = 1;
     for (j = 1;j <= arr[i];j++)
     {
+      if (week > 7)
+      {
+        week = 1;
+      }
+
       if (week == 6)
       {
         count++;
@@ -18,31 +23,24 @@ int main()
       {
         count++;
       }
-      if (arr[i] == 1 && week != 6 && week != 7)
+      if (j == 1 && week != 6 && week != 7)
       {
         count++;
       }
-      if (arr[i] == 11 && week != 6 && week != 7)
+      if (j == 11 && week != 6 && week != 7)
       {
         count++;
       }
-      if (arr[i] == 21 && week != 6 && week != 7)
+      if (j == 21 && week != 6 && week != 7)
       {
         count++;
       }
-      if (arr[i] == 31 && week != 6 && week != 7)
+      if (j == 31 && week != 6 && week != 7)
       {
         count++;
       }
 
-      if (week < 7)
-      {
-        week++;
-      }
-      else
-      {
-        week = 1;
-      }
+      week++;
     }
   }
 
