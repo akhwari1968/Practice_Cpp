@@ -15,26 +15,29 @@ int isrun(int year)
 
 int number(int x)
 {
+	int add = 0;
   if (x == 0)
-  return 13;
+  add = 13;
   else if (x == 1)
-  return 1;
+  add = 1;
   else if (x == 2)
-  return 2;
+  add = 2;
   else if (x == 3)
-  return 3;
+  add =  3;
   else if (x == 4)
-  return 5;
+  add =  5;
   else if (x == 5)
-  return 4;
+  add =  4;
   else if (x == 6)
-  return 4;
+  add =  4;
   else if (x == 7)
-  return 2;
+  add =  2;
   else if (x == 8)
-  return 2;
+  add =  2;
   else if (x == 9)
-  return 2;
+  add =  2;
+  
+  return add;
 }
 
 int caculation_year(int year)
@@ -120,9 +123,7 @@ int main()
         }
       }
     }
-  }
+    cout << sum;
 
-  cout << num;
-
-  return 0;
+    return 0;
 }
