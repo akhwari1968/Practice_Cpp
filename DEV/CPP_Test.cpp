@@ -1,28 +1,23 @@
 #include <iostream>
+#include <string>
+
 using namespace std;
 int main()
 {
-  long long N = 0;
-  int i = 0,idex = 0;
-  double r = 0.0,t = 0.0,p = 0.0; 
-
-  cin >> N;
-  for (i = 1;i <= N;i++)
+  string str;
+  cin >> str;
+  int y = 0,f = 0,i = 0;
+  for (i = 0;i < str.length();i++)
   {
-    cin >> t >> p;
-    if (i == 1)
+    if (str[i] == 'a' ||str[i] == 'e' ||str[i] == 'i' ||str[i] == 'o' ||str[i] == 'u')
     {
-      r = p / t;
-      idex = 1;
+      y++;
     }
-    if (r > p / t)
+    else
     {
-      r = p / t;
-      idex = i;
+      f++;
     }
   }
-
-  cout << idex;
-
+  cout << y << endl << f;
   return 0;
 }
