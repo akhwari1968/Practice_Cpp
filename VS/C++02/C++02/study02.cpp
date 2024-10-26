@@ -6,6 +6,11 @@
 //#define Swap(num1,num2) (temp = num1,num1 = num2,num2 = temp)
 using namespace std;
 
+void show(const int& v)
+{
+	
+}
+
 int isprime(int m)
 {
 	int i = 0;
@@ -92,9 +97,13 @@ int main()
 
 	cout << count << endl;*/
 
-	double r = 0.0;
-	cin >> r;
-	cout << fixed << setprecision(2) << pi * r * r << endl;//fixed设置为定点输出模式，setprecision设置小数点后几位
+	//double r = 0.0;
+	//cin >> r;
+	//cout << fixed << setprecision(2) << pi * r * r << endl;//fixed设置为定点输出模式，setprecision设置小数点后几位
+
+	int a = 10;
+	show(a);
+	a = 100;
 
 	system("pause");
 	return 0;
