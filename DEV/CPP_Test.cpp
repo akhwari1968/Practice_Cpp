@@ -1,6 +1,50 @@
 #include <iostream>
 #include <string>
 
+int findr(char* str, char* sub)
+{
+    int i = 0;
+    int j = 0;
+    int strLen = 0;
+    int subLen = 0;
+    if (str == NULL || sub == NULL) 
+    {
+        return -1;
+    }
+
+    while (str[strLen] != '\0') 
+    {
+        strLen++;
+    }
+
+    while (sub[subLen] != '\0') 
+    {
+        subLen++;
+    }
+
+    if (subLen > strLen) 
+    {
+        return -1;
+    }
+
+    for (i = strLen - subLen; i >= 0; i--) 
+    {
+        for (j = 0; j < subLen; j++) 
+        {
+            if (str[i + j] != sub[j]) 
+            {
+                break;
+            }
+        }
+        if (j == subLen) 
+        {
+            return i;
+        }
+    }
+    return -1;
+
+}
+
 using namespace std;
 int main()
 {
