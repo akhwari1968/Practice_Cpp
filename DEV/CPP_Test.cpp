@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
-	//眼睛疼，休息一晚
+	int a = 10;
+	printf("%010d",a);
 	return 0;
 }
