@@ -16,13 +16,27 @@ int main()
   }
 
   i = 0;
-  while (1)
+  int tmp = 0;
+  int k = 0;
+  while (i < n)
   {
     i += 2;
-    for ()
-    for (int j = i;j > 0;j--)
+    if (i == 2)
     {
+      tmp = n - 1;
+      for (k = tmp;k > 0;k--)
+      {
         
+      }
+      k = n - 1;
+    }
+    else
+    {
+      tmp -= 2;
+      for (k = tmp;k > 0;k--)
+      {
+        
+      }
     }
   }
 
