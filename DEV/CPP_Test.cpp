@@ -2,16 +2,22 @@
 using namespace std;
 int main()
 {
-  int a = 0,b = 0,i = 0;
-  cin >> a >> b;
+  long long t = 0,x = 0,y = 0,sum = 0;
+  cin >> t;
 
-  for (a;a <= b;a++)
+  while(t--)
   {
-    if (a % 3 == 0)
+    cin >> x >> y;
+    sum = x - y;
+    if (sum <= 0)
     {
-      i++;
+      cout << 0 << endl;
     }
+    else
+    {
+      cout << sum << endl;
+    }
+
   }
-  cout << i;
   return 0;
 }
