@@ -1,16 +1,22 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int main()
 {
-  int T = 0,N = 0;
-  cin >> T;
-  for (T;T > 0;T--)
+  int n = 0,tmp = 0;
+  double sum = 0,a = 2,b = 3;
+
+  cin >> n;
+  while (n--)
   {
-    cin >> N;
-    if (N % 3 == 0)
-    cout << "YES" << endl;
-    else
-    cout << "NO" << endl;
+    sum += a / b;
+    tmp = a;
+    a = b;
+    b = tmp + a;
   }
+
+  //printf("%.5lf",sum);
+  cout << fixed << setprecision(5) << sum;
+
   return 0;
 }
