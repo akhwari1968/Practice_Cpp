@@ -1,13 +1,15 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main()
 {
-  int T = 0,X = 0,Y = 0,sum = 0;
-  cin >> T;
-  while(T--)
-  {
-    cin >> X >> Y;
-    cout << X * 10 + Y * 90 << endl;
-  }
+  string str;
+  cin >> str;
+  if (str[str.length() - 1] == '0')
+  str[str.length() - 1] = '1';
+  else
+  str[str.length() - 1] = '0';
+  cout << str;
+
   return 0;
 }
