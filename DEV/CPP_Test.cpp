@@ -2,32 +2,20 @@
 using namespace std;
 int main()
 {
-  int n,d,t,sum;
-  int i = 0,j = 0;
+  int t;
+  long long x,y;
 
-  cin >> n >> d;
-  while (n--)
+  cin >> t;
+  while (t--)
   {
-    cin >> t;
-    if (t >= 80 || t <= 9)
-    {
-      //危险
-      i++;
-    }
-    else
-    {
-      //不危险
-      j++;
-    }
+    cin >> x >> y;
+    if (x > y)
+    cout << "BRIDGE" << endl;
+    if (x < y)
+    cout << "YI" << endl;
+    if (x == y)
+    cout << "ANY" << endl;
   }
-
-  sum = (i / d) + (j / d);
-  if (i - i / d != 0)
-  sum += 1;
-  if (j - j / d != 0)
-  sum += 1;
-  
-  cout << sum;
 
   return 0;
 }
