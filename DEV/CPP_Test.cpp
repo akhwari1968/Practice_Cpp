@@ -2,21 +2,21 @@
 using namespace std;
 int main()
 {
-  int t,x,y,sum;
-  cin >> t;
-
-  while (t--)
-  {
-    cin >> x >> y;
-    if (y <= x)
-    {
-      sum = (x / y) + (x % y);
-    }
-    else
-    sum = x;
-
-    cout << sum << endl;
-  }
-
+  char s;
+  cin >> s;
+  if (s == 'C')
+  cout << "C#";
+  else if (s == 'D')
+  cout << "D#";
+  else if (s == 'E')
+  cout << "F";
+  else if (s == 'F')
+  cout << "F#";
+  else if (s == 'G')
+  cout << "G#";
+  else if (s == 'A')
+  cout << "A#";
+  else if (s == 'B')
+  cout << "C";
   return 0;
 }
