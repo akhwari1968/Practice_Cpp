@@ -1,15 +1,18 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main()
 {
-  int day = 2025;
-  while (day++)
+  int n,count;
+  string str;
+  cin >> n;
+  while (n--)
   {
-    if ((day % 4 == 0 && day % 100 != 0) || day % 400 == 0)
-    {
-      cout << day;
-      break;
-    }
+    cin >> str;
+    if (str[0] != str[1] && str[1] == str[2])
+    count++;
   }
+
+  cout << count;
   return 0;
 }
