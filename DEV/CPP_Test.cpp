@@ -1,23 +1,29 @@
 #include <iostream>
 #include <string>
-#include <ctype.h>
 using namespace std;
 int main()
 {
-	int num = 0;
-  string str1,str2;
-  cin >> str1 >> str2;
+  string str1;
+  bool s = false;
+  cin >> str1;
+  int i = 0,j = 0;
 
-  for (int i = 0;i < str2.size();i++)
+  for (i;i < str1.size();i++)
   {
-    if (isdigit(str2[i]))
+    for (j = 1;j < str1.size();j++)
     {
-      num = str2[i] - '0';
-      str2[i] = str1[num];
+      if (str1[j] == str1[i])
+      {
+        s = true;
+        break;
+      }
+      else
+      s = false;
     }
   }
-
-  cout << str2;
-
+  if (s)
+  cout << "YES";
+  else
+  cout << "NO";
   return 0;
 }
