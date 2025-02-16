@@ -6,26 +6,5 @@ int main()
 {
 	ios :: sync_with_stdio(0),cin.tie(0),cout.tie(0);
 	
-	ll n = 0,i = 0,sum = 0;
-	
-	cin >> n;
-	
-	for (i = 1;i <= n;i++)
-	{
-		ll j = i;
-		while (j)
-		{
-			ll tmp = j % 10;
-			j /= 10;
-			if (tmp == 2 || tmp == 0 || tmp == 1 || tmp == 9)
-			{
-				sum += i;
-				break;
-			}
-		}
-	}
-	
-	cout << sum;
-	
 	return 0;
 }
