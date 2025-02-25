@@ -1,41 +1,26 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 int main()
 {
+	int i = 0;
   string str1;
-  bool s = false;
   cin >> str1;
-  int i = 0,j = 0;
 
-  for (i = 0;i < str1.size();i++)
+  sort(str1.begin(),str1.end());
+
+  while(i < (int)str1.size())
   {
-    for (j = 0;j < str1.size();j++)
+    if (str1[i] == str1[i+1])
     {
-      if (str1[i] == ' ')
-      break;
-      
-      if (str1[j] == ' ')
-      continue;
-      
-      if (j == i)
-      continue;
-      
-      s = false;
-      if (str1[j] == str1[i])
-      {
-      	str1[j] = ' ';
-      	str1[i] = ' ';
-        s = true;
-        break;
-      }
+      i += 2;
     }
-    if (!s)
+    else
     break;
   }
-  if (s)
-  cout << "YES";
-  else
+  if(i < str1.size())
   cout << "NO";
+  else
+  cout << "YES";
+
   return 0;
 }
