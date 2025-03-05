@@ -28,15 +28,16 @@ int insertlist(LNode *L,int x,int y)
 int main()
 {
 	int n,m,x,y;
-	LinkList L1,L2,L3;
+	LinkList L1,L2,t,e;
 	initlist(&L1);
+	LNode *p1 = L1;
 	scanf("%d" "%d",&n,&m);
 	for (int i = 0;i < n;i++)
 	{
 		scanf("%d %d",&x,&y);
 		insertlist(L1,x,y);
 	}
-	
+	t = L1;
 	initlist(&L2);
 	for (int i = 0;i < m;i++)
 	{
@@ -45,18 +46,46 @@ int main()
 	}
 	printf("\n");
 	
-	initlist(&L3);
-	LNode *p1 = L1, *p2 = L2, *p3 = L3;
-	while()
+	while(p1->next != NULL)
 	{
+		p1 = p1->next;
+		t = t->next;
+	}
+	t->next = L2->next;
+	free(L2);
+
+	p1 = L1->next;
+	int tmp = 0,min = 0;
+	while(p1->next != NULL)
+	{
+		t = p1->next;
+		min = p1->a;
+		e = p1;
+		while(t != NULL)
+		{
+			if (t->a < min)
+			{
+				min = t->a;
+				e = t;
+			}
+			t = t->next;
+		}
 		
+		tmp = p1->a;
+		p1->a = e->a;
+		e->a = tmp;
+		tmp = p1->b;
+		p1->b = e->b;
+		e->b = tmp;
+		p1 = p1->next;
 	}
 	
-	while(p3->next != NULL)
+	p1 = L1;
+	while(p1->next != NULL)
 	{
-		printf("%d %d",p3->next->a,p3->next->b);
+		printf("%d %d",p1->next->a,p1->next->b);
 		printf("\n");
-		p3 = p3->next;
+		p1 = p1->next;
 	}
 
 	return 0;
