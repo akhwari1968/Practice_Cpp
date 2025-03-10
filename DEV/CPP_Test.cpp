@@ -1,11 +1,10 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
 
-int mian()
+int main()
 {
-	int a = 0;
-	char arr[5];
-	
-	scanf("%d %s",&a,arr);
+	ios :: sync_with_stdio(0),cin.tie(0),cout.tie(0);
 	
 	return 0;
 }
