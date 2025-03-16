@@ -1,51 +1,35 @@
-#include <stdio.h>
-
-void fun2(int m,int n)
+#include<stdio.h>
+void An(int i,int n)
 {
-	if (m == n)
-	{
-		printf("sin(%d)",n);
-	}
-	else
-	{
-		printf("sin(%d",n);
-		if(n%2 == 0)
-		{
-			printf("+");
-		}
-		else
-		{
-			printf("-");
-		}
-		
-		printf("");
-		fun2(m,n+1);
-		printf(")");
-	}
-}
-
-void fun1(int m,int n)
+    if(i==n)
+    printf("sin(%d)",n);
+    else{
+        printf("sin(%d",i);
+        if(i%2!=0)
+        printf("-");
+        else
+        printf("+");
+        An(i+1,n);
+        printf(")");
+    }
+}    
+void Sn(int i,int n)
 {
-	if (m == n)
-	{
-		fun2(1,1);
-		printf("+%d",m);
-	}
-	else
-	{
-		printf("(");
-		fun1(m,n+1);
-		printf(")");
-		fun2(m-n+1,1);
-		printf("+%d",n);
-	}
+    if(n==1){
+        An(1,1);
+        printf("+%d",i);
+    }else{
+        printf("(");
+        Sn(i+1,n-1);
+        printf(")");
+        An(1,n);
+        printf("+%d",i);
+    }
 }
-
 int main()
 {
-	int n = 0;
-	scanf("%d",&n);
-	fun1(n,1);
-	
-	return 0;
+    int n;
+    scanf("%d",&n);
+    Sn(1,n);
+    return 0;
 }
