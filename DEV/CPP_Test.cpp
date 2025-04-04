@@ -10,11 +10,27 @@ int main()
 	cin >> i;
 	vector<int> v;
 	
-	while (scanf("%d",&j) != EOF)
+	for (int n = 0;n < i;n++)
 	{
-		v.push_back(j);
+		while (cin >> j)
+		{
+			v.push_back(j);
+			if (cin.get() == '\n')
+			break;
+		}
 	}
-	cout << v[5];
+	
+	int num1 = 0,num2 = 0;
+	sort(v.begin(),v.end());
+	for (i = 1;i < v.size();i++)
+	{
+		if (v[i] == v[i+1])
+		num1 = v[i];
+		if (v[i+1] - v[i] == 2)
+		num2 = v[i] + 1;
+	}
+	
+	cout << num2 << ' ' << num1;
 	
 	return 0;
 }
